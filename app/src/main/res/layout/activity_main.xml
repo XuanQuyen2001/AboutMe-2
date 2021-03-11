@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Cụt Xuân Quyền"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/nickName_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/your_nick_name"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnDone"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/cardview_compat_inset_shadow"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/btnDone"
+        android:onClick="clickHandlerFunction"/>
+
+    <TextView
+        android:id="@+id/nickName_txt"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:paddingBottom="@dimen/cardview_compat_inset_shadow"
+        android:visibility="gone"
+        android:text=""
+        android:textSize="20dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Hello, my name is Cut Xuan Quyen, 19 years old this year and I am a student in class 19it3, the second year of Vietnam - Korea University of Information Technology and Communication."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="I am a pretty confident person when standing in front of a crowd, polite. I am also very optimistic, because wherever I go I have a smile on my face. I think I'm quite humorous because wherever I go, I create laughter for everyone around."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="There are 5 people in my family, my grandmother, my parents, my brother and me. I have many friends and many different relationships."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="I have many hobbies. I often play computer games with my roommates after self-study hours. Usually I listen to music in the shower. Singing is also my hobby, ..."
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="In addition, I can play many sports such as soccer, badminton, table tennis, swimming, ... Especially, I really like to learn martial arts and now I am studying martial arts with the Karate club of the school."
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="My goal is to become a website design programmer so that when I graduate, I want to return to my hometown to start a business with my own career. "
+        />
+
+
+
+
+</LinearLayout>
+</ScrollView>
